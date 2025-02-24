@@ -1,0 +1,319 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+/*============ HEADER ============*/
+#header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url('images/silver-bg.jpg');
+    background-repeat: repeat-x;
+}
+
+#header img{
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding-top: 15px;
+}
+
+/*============ TOP-TABS ============*/
+
+#tabs-top{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 47px;
+    background-color: #040229;
+}
+
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 25%;
+    height: 35px;
+    font-weight: 700;
+    color: royalblue;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*============ MAIN HOME ============*/
+
+#main-home{
+    margin-top: 120px;      
+}
+
+/*============ BOTTOM TABS ============*/
+
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: #040229;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 35px;
+    font-weight: 700;
+    color: royalblue;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*============ MAIN ============*/
+
+#main{
+    margin-top: 119px;
+    background: url('images/home-page.jpg');
+    background-repeat: repeat-y;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+/*============ INFO BOX ============*/
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    height: 120px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1x;
+}
+
+.info-box img{
+    height: 90px;
+    margin: 10px;
+    float: left;
+}
+
+.info-box h3{
+    padding: 0;
+    padding-top: 8px;
+    margin-bottom: 0;
+    width: 90%;
+    color: darkblue;
+}
+
+.info-box p{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: #040229;
+}
+
+/*============ INFO BOX FULL ============*/
+
+#info-box-full{
+    background-color: rgba(255, 255, 255, .8);
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 20px;
+}
+
+#info-box-full img{
+    width: 70%;
+}
+
+#info-box-full{
+    text-align: center;
+}
+
+/*============ INFO BOX FULL ============*/
+
+.info-box-full h3{
+    padding: 0;
+    padding-top: 8px;
+    margin-bottom: 0;
+    width: 90%;
+    color: #16046e;
+}
+
+.info-box-full p{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: #040229;
+}
+/*============ SHOP BOX FULL ============*/
+
+a.shop-box-full{
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1x;
+}
+
+.shop-box-full h3{
+    padding: 0;
+    padding-top: 8px;
+    margin-bottom: 0;
+    width: 90%;
+    color: #16046e;
+}
+
+.shop-box-full p{
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+    width: 90%;
+    color: #040229;
+}
+
+/*============ SHOP BOX FULL ============*/
+
+#shop-box-full{
+    background-color: rgba(255, 255, 255, .8);
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 20px;
+}
+
+#shop-box-full img{
+    width: 25%;
+}
+
+#shop-box-full{
+    text-align: center;
+}
+
+/*============ MOVIE BOX FULL ============*/
+
+a.movie-box-full{
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1x;
+}
+
+.movie-box-full h3{
+    padding: 0;
+    padding-top: 8px;
+    margin-bottom: 0;
+    width: 90%;
+    color: #16046e;
+}
+
+.movie-box-full p{
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+    width: 90%;
+    color: #040229;
+}
+
+/*============ MOVIE ============*/
+
+#movie{
+    margin-top: 119px;
+    background: url('images/cinema-bg.jpg');
+    background-repeat: repeat-y;
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+/*============ MOVIE BOX FULL ============*/
+
+#movie-box-full{
+    background-color: rgba(255, 255, 255, .8);
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 20px;
+}
+
+#movie-box-full img{
+    width: 70%;
+}
+
+#movie-box-full{
+    text-align: center;
+}
+
+/*============ FORM ============*/
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 25px 0;
+    border: 1px solid #929292;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    background-color: #040229;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+/*============ MENU-BAR ============*/
+
+
+#menu-bar a{
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, .8);
+    color: #040229; 
+}
+
+a:hover{
+    background-color: ghostwhite;
+    color: #040229; 
+    display: block;
+}
+
+
+
+
+
+
+
+
