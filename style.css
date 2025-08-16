@@ -304,6 +304,11 @@ textarea {
   padding: 8px 0;
 }
 
+.button:hover {
+  color: #040229;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
 /*============ MENU-BAR ============*/
 
 #menu-bar a {
